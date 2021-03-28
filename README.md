@@ -3,7 +3,7 @@ A Py3 code that implements batch linear regressor using gradient descent.
 
 ## Math path
 
-
+![GD](https://github.com/ranjiGT/BatchLinearRegor/blob/main/mathpath1.png)
 
 Parameters:
 - **threshold** - The threshold, that the change in error has to fall below, before the algorithm terminates.
