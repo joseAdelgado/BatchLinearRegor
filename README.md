@@ -6,9 +6,7 @@ Parameters:
 - **data** - The location of the data file (e.g. /media/data/yacht.csv).
 - **eta** - The learning rate of the gradient descent approach.
 
-where ~xi is one data point (with N being the size of the data set),  the learning rate, yi
-is the target output and f(~xi) is the linear function dened as f(~x) = ~wT ~x or equivalently
-f(~x) =
-P
-i wi  xi. Whereas ~w and ~x include the bias/intercept, i.e. w0 (x0 is always 1).
 All weights should be initialized as 0.
+
+Start your program in the following way:
+**python3 student.py --data random.csv --eta 0.0001 --threshold 0.0001**
