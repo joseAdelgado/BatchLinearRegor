@@ -11,7 +11,7 @@ Parameters:
 - **eta** - The learning rate of the gradient descent approach.
 
 Start your program in the following way:
-**python3 student.py --data random.csv --eta 0.0001 --threshold 0.0001**
+`python3 student.py --data random.csv --eta 0.0001 --threshold 0.0001`
 
 ## Output 
 ![OP1](https://github.com/ranjiGT/BatchLinearRegor/blob/main/op1.png)
