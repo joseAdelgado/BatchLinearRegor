@@ -22,3 +22,7 @@ Start your program in the following way:
 ## Standard release
 
 A build of the same problem statement with only using standard libararies is available at the release section.
+
+## Run Dockerfile 
+
+`docker run -it python-regor1 python3 bregressorv2.py --data random1.csv --eta 0.0001 --threshold 0.0001`
