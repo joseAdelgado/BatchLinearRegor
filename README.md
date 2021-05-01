@@ -18,3 +18,7 @@ Start your program in the following way:
 
 ## Bonus
 [![GD](https://img.youtube.com/vi/8zb9nsi8KzA/maxresdefault.jpg)](https://youtu.be/8zb9nsi8KzA)
+
+## Standard release
+
+A build of the same problem statement with only using standard libararies is available at the release section.
