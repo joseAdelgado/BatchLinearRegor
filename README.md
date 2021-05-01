@@ -16,6 +16,8 @@ Start your program in the following way:
 ## Output 
 ![OP1](https://github.com/ranjiGT/BatchLinearRegor/blob/main/op1.png)
 
+![](https://github.com/ranjiGT/BatchLinearRegor/blob/main/shine.gif)
+
 ## Bonus
 [![GD](https://img.youtube.com/vi/8zb9nsi8KzA/maxresdefault.jpg)](https://youtu.be/8zb9nsi8KzA)
 
