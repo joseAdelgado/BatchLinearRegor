@@ -21,6 +21,30 @@ Start your program in the following way:
 ## Bonus
 [![GD](https://img.youtube.com/vi/8zb9nsi8KzA/maxresdefault.jpg)](https://youtu.be/8zb9nsi8KzA)
 
+```
+def regressor(dataset,eta,t):
+    x, y, w = mat(dataset)
+    costmat,res=[],[]
+    key=0
+    while True:
+        currres=[]
+        currres.append(key)
+        key += 1
+        cost = sqrerror(x,y,w)
+        for ol in w:
+            for il in ol:
+                currres.append(il)
+        currres.append(cost)
+        costmat.append(cost)
+        res.append(currres)
+        w = w-(eta)*np.sum((x@w.T-y)*x,axis=0) #Gradient Calculation 
+
+        if key>1:
+            if (costmat[-2]-costmat[-1]) <= t:
+                break
+    return res
+```
+
 ## Standard release
 
 A build of the same problem statement with only using standard libararies is available at the release section.
