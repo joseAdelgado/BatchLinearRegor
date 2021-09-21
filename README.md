@@ -47,7 +47,7 @@ def regressor(dataset,eta,t):
 
 ## Standard release
 
-A build of the same problem statement with only using standard libararies is available at the release section.
+A build of the same problem statement with only using standard libraries is available at the release section.
 
 ## Run Dockerfile 
 
