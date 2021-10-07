@@ -1,4 +1,5 @@
 # `BatchLinearRegor`(Ext-Lib) ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ranjiGT/BatchLinearRegor/main?labpath=Assignment-01.ipynb)
 A Py3 code that implements batch linear regressor using gradient descent.
 
 ## Math path
