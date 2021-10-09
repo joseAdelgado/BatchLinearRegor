@@ -3,7 +3,12 @@
 A Py3 code that implements batch linear regressor using gradient descent.
 
 ## Math path
+Write a Python code that implements batch linear regressor using gradient descent.
 
+$$gradient=\sum_{i=1}^{N}\vec{x_i}(y_i-f(\vec{x_i}))$$
+$$\vec{w}\gets \vec{w} + \eta . gradient$$
+
+where $\vec{x_i}$ is one data point (with N being the size of the data set). $\eta$ the learning rate, $\vec{y_i}$ is the target output and $f(\vec{x_i})$ is the linear function defined as $f(\vec{x_i})=\vec{w}^{T}\vec{x}$ or equivalently $f(\vec{x})=\sum_{i}{w_i}.{x_i}.$ whereas $\vec{w}$ and $\vec{x}$ include the bias/intercept, i.e. $\vec{w_0}$ ( $\vec{x_0}$ is always 1). All weights should be initialized as 0.
 ![GD](https://github.com/ranjiGT/BatchLinearRegor/blob/main/mathpath1.png)
 
 Parameters:
